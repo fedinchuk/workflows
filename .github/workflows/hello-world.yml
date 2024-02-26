@@ -1,0 +1,9 @@
+1. name: Hello World
+2. on: push  
+3. jobs:
+4.  hello-world:
+5.    runs-on: ubuntu-latest
+6.    steps:
+7.       - uses: actions/checkout@v3.1.0
+8.       - name: Step name
+9.         run: echo "Hello World!"
